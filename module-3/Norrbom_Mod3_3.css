@@ -2,12 +2,17 @@ h1 {
     text-align: center;
 }
 
-div {
-    width: 45%;
-}
-
 h3 {
     font-weight: 500;
+}
+
+div {
+    display: inline-block; /* Ensure divs are lined up inline */
+    vertical-align: top; /* Align the top of the divs */
+}
+
+.left, .right {
+    width: 45%; 
 }
 
 ol {
