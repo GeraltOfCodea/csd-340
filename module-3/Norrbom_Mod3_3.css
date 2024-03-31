@@ -42,10 +42,10 @@ a:hover {
     text-decoration: underline;
 }
 
-.bottom-div {
+div:last-of-type {
+    float: right;
     width: 100%;
     margin-top: 60%;
-    float: right;
     margin-bottom: 20px;
 }
 
