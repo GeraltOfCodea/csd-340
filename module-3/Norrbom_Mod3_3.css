@@ -11,9 +11,9 @@ h3 {
 }
 
 #container {
-    width: 100%; /* Set the width of the container to 100% */
-    max-width: 1200px; /* You can adjust this value */
-    margin: 0 auto; /* Center the container */
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 div {
@@ -49,4 +49,5 @@ a:hover {
 div:last-of-type {
     float: right;
     margin-bottom: 20px;
+    width: 100%;
 }
