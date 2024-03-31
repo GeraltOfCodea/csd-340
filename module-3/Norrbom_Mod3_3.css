@@ -7,8 +7,8 @@ h3 {
 }
 
 div {
-    display: inline-block; /* Ensure divs are lined up inline */
-    vertical-align: top; /* Align the top of the divs */
+    display: inline-block; 
+    vertical-align: top; 
 }
 
 .left, .right {
