@@ -1,9 +1,19 @@
+body {
+    text-align: center; /* Center align the body content */
+}
+
 h1 {
     text-align: center;
 }
 
 h3 {
     font-weight: 500;
+}
+
+#container {
+    width: 100%; /* Set the width of the container to 100% */
+    max-width: 1200px; /* You can adjust this value */
+    margin: 0 auto; /* Center the container */
 }
 
 div {
