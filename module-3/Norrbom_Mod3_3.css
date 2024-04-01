@@ -19,12 +19,14 @@ h3 {
     border: 1px solid red;
     border-radius: 15px;
     width: 45%;
+    text-align: right;
 }
  
 .right-div {
     border: 1px dashed red;
     border-radius: 15px;
     width: 45%;
+    text-align: right;
 }
 
 ol, ul {
@@ -34,14 +36,12 @@ ol, ul {
 ol {
     padding: 10px;
     list-style-position: inside;
-    float: right;
 }
 
 ul {
     padding: 10px;
     list-style-type: upper-roman;
     list-style-position: inside;
-    float: right;
 }
 
 a:hover {
