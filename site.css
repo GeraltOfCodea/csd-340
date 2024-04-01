@@ -18,6 +18,7 @@ a {
 
 a:hover {
     color: #d56618; /* Color when the mouse hovers over the link */
+    text-decoration: underline;
 }
 
 a:visited {
