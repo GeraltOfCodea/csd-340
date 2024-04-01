@@ -15,7 +15,15 @@ h3 {
     justify-content: space-around;
 }
 
-.left-div, .right-div {
+.left-div {
+    border: 1px solid red;
+    border-radius: 15px;
+    width: 45%;
+}
+ 
+.right-div {
+    border: 1px dashed red;
+    border-radius: 15px;
     width: 45%;
 }
 
@@ -24,18 +32,16 @@ ol, ul {
 }
 
 ol {
-    border: 1px solid red;
-    border-radius: 15px;
     padding: 10px;
     list-style-position: inside;
+    float: right;
 }
 
 ul {
-    border: 1px dashed red;
-    border-radius: 15px;
     padding: 10px;
     list-style-type: upper-roman;
     list-style-position: inside;
+    float: right;
 }
 
 a:hover {
