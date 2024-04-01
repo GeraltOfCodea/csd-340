@@ -48,6 +48,7 @@ a:hover {
     margin-top: 60%;
     margin-bottom: 20px;
     text-align: right;
-    color: green;
+    position: fixed;
+    bottom: 0;
 }
 
