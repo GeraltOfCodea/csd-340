@@ -42,11 +42,10 @@ a:hover {
     text-decoration: none;
 }
 
-.landing-page {
-    width: 100vw;
+.return-landing-page {
+    width: 95vw;
     margin-top: 60%;
     margin-bottom: 20px;
-    padding-right: 10px;
     text-align: right;
     position: fixed;
     bottom: 0;
