@@ -12,21 +12,20 @@ h3 {
 
 .side-by-side {
     display: flex;
-    justify-content: space-around;
 }
 
 .left-div {
     border: 1px solid red;
     border-radius: 15px;
     width: 45%;
-    text-align: right;
+    text-align: left;
 }
  
 .right-div {
     border: 1px dashed red;
     border-radius: 15px;
     width: 45%;
-    text-align: right;
+    text-align: left;
 }
 
 ol, ul {
