@@ -70,9 +70,8 @@ footer p, footer a {
     color: white;
     font-weight: 400;
     float: right;
-    padding-right: 10px;
+    padding-right: 25px;
     font-style: italic;
-    max-width: 95vw;
 }
 
 footer a:hover {
