@@ -75,12 +75,3 @@ footer p, footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
-.return-landing-page {
-    width: 95vw;
-    margin-top: 60%;
-    margin-bottom: 20px;
-    text-align: right;
-    position: fixed;
-    bottom: 0;
-}
