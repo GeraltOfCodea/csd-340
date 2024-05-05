@@ -1,0 +1,40 @@
+<!-- Ryan Norrbom : Assignment 4.2 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="Norrbom_Mod10_3.css">
+    <script>
+        // Function to replace the main image with the source of the clicked thumbnail
+        function displayImage(imageFile) {
+          var largerImage = document.getElementById("mainImage");
+          if (largerImage) {
+            largerImage.src = imageFile;
+          }
+        }
+      </script>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <img id="mainImage" src="placeholder.jpg" alt="Main Image" class="mainImage"/>
+        </div>
+        <br />
+        <div>
+            <img src="./images/craterlake.png" alt="Crater Lake" class="thumbnail" onclick="displayImage('./images/craterlake.png');"/>
+            <img src="./images/no-access.png" alt="No Access" class="thumbnail" onclick="displayImage('./images/no-access.png');"/>
+            <img src="./images/tillamook.png" alt="Tillamook" class="thumbnail" onclick="displayImage('./images/tillamook.png');"/>
+        </div>
+        <br />
+        <div>
+            Run your mouse over the images to change the main display.
+            <br />
+            Click on the thumbnails to see them larger.
+        </div>
+    </div>
+</div>
+<div class="return-landing-page">
+    <a href="../index.html">Back to Landing Page</a>
+</div>
+</body>
+</html>
