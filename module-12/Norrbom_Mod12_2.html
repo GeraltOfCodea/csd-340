@@ -1,0 +1,71 @@
+<!-- Ryan Norrbom : Assignment 3.3 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="Norrbom_Mod12_2.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Assignment 12.2: JavaScript - Part 4</h1>
+        <div class="side-by-side">
+            <div class="left-div">
+                <h3>Top 10 Favorite Books</h3>
+                    <button onclick="displayBooksAsc()">Top to Bottom</button>
+                    <button onclick="displayBooksDesc()">Bottom to Top</button>
+                    <ul id="book-list"></ul>
+                
+                    <script>
+                        const books = [
+                            "A Brief History of Intelligence",
+                            "Eye of the World",
+                            "The Great Hunt",
+                            "The Dragon Reborn",
+                            "Enders Shadow",
+                            "Speaker for the Dead",
+                            "Enders Game",
+                            "Winters Heart",
+                            "Quantum Theory",
+                            "Everest"
+                        ];
+                
+                        function displayBooksAsc() {
+                            const sortedBooks = [...books].sort();
+                            displayBooks(sortedBooks);
+                        }
+                
+                        function displayBooksDesc() {
+                            const sortedBooks = [...books].sort().reverse();
+                            displayBooks(sortedBooks);
+                        }
+                
+                        function displayBooks(booksArray) {
+                            const bookList = document.getElementById('book-list');
+                            bookList.innerHTML = '';
+                            booksArray.forEach(book => {
+                                const listItem = document.createElement('li');
+                                listItem.textContent = book;
+                                bookList.appendChild(listItem);
+                            });
+                        }
+                    </script>
+            </div>
+            <div class="right-div">
+                <h3>5 Things I've Learned Since the Course Started</h3>
+                <ul>
+                    <li>How to use GitHub Pages</li>
+                    <li>Design Principles Follow Several Neurology Discoveries over the last several decades</li>
+                    <li>Colors Matter, not just for color blindness and high-contrast, but also to reduce eye strain</li>
+                    <li>HTML + CSS is fun</li>
+                    <li>Descriptors as Embelishments & Visuals</li>
+                </ul>
+            </div>
+        </div>
+        <div class="return-landing-page">
+            <a href="../index.html">Back to Landing Page</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
